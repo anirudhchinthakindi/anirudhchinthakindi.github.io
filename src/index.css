@@ -443,6 +443,13 @@ body {
     overflow-x: auto;
 }
 
+/* Hide ASCII art on small screens (mobile) */
+@media (max-width: 600px) {
+    .ascii-art {
+        display: none;
+    }
+}
+
 .welcome-text {
     margin-bottom: 20px;
     color: var(--text-primary);
