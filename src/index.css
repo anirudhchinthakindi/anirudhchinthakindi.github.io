@@ -493,7 +493,7 @@ html {
 }
 
 /* Hide ASCII art on small screens (mobile) */
-@media (max-width: 600px) {
+@media (max-width: 816px) {
     .ascii-art {
         display: none;
     }
